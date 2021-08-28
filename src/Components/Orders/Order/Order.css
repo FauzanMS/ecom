@@ -1,0 +1,40 @@
+.orderContainer{
+    margin: auto;
+    width: 80%;
+    height: 5%;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 13px;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+.orderImage{
+    width: 20%;
+    box-shadow: 0 0 10px rgb(90, 90, 90);
+    border-radius: 13px;
+}
+.orderDetails{
+    margin: auto;
+    margin-top: 4%;
+    width: 60%;
+}
+@media (max-width:498px){
+.orderContainer{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.orderImage{
+    width: 100%;
+    box-shadow: 0 0 10px rgb(90, 90, 90);
+    border-radius: 13px;
+    margin-top: 20%;
+}
+.orderDetails{
+    margin: auto;
+    margin-top: 10%;
+    width: 55%;
+}
+}

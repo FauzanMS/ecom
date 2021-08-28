@@ -1,0 +1,101 @@
+#formCard{
+    color: rgb(0, 0, 0);
+    margin: auto;
+    margin-top: 6%;
+    width: 90%;
+    height: 100%;
+}
+.form-check{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 15%;
+}
+#inputState{
+    color: rgb(0, 0, 0);
+}
+
+.form-control:focus{
+    box-shadow: 0 0 10px rgb(255, 196, 0);
+}
+/* #form-control:focus{
+    box-shadow: 0 0 10px rgb(255, 196, 0), 0 0 20px rgb(255, 196, 0);
+} */
+#formButton{
+    width: 100%;
+    margin-left: 6%;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    color: black;
+    background-color: rgb(255, 196, 0);
+}
+#formButton:hover{
+    box-shadow: 0 0 10px #ccc , 0 0 20px #ccc;
+}
+#formCard{
+    height: 80%;
+    padding: 2%;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #ccc , 0 0 20px #ccc ;
+}
+.form-check{
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width:800px){
+    #formCard{
+        margin: auto;
+        margin-top: 12%;
+        color: rgb(0, 0, 0);
+        width:90%;
+        padding: 2%;
+        border-radius: 15px;
+        box-shadow: 0 0 10px #ccc , 0 0 20px #ccc ;
+        height: 95vh;
+        margin-bottom: 4%;
+    }
+    .form-check{
+        width: 40%;
+        margin-left: 30%;
+    }
+    #inputState{
+        color: rgb(0, 0, 0);
+    }
+    #formButton{
+        margin-left: 6%;
+        outline: none;
+        border: none;
+        border-radius: 12px;
+        color: black;
+        background-color: rgb(255, 196, 0);
+    }    
+}
+@media (max-width:500px){
+    #formCard{
+        margin: auto;
+        margin-top: 6%;
+        color: rgb(0, 0, 0);
+        width:90%;
+        padding: 2%;
+        border-radius: 15px;
+        box-shadow: 0 0 10px #ccc , 0 0 20px #ccc ;
+        margin-bottom: 4%;
+    }
+    .form-check{
+        margin-left: 30%;
+        width: 100%;
+    }
+    #inputState{
+        color: rgb(0, 0, 0);
+    }
+    #formButton{
+        margin-left: 6%;
+        outline: none;
+        border: none;
+        border-radius: 12px;
+        color: black;
+        margin-top: 15%;
+        background-color: rgb(255, 196, 0);
+    } 
+ 
+}

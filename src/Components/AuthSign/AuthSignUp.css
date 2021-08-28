@@ -1,0 +1,136 @@
+#formCard1{
+    color: rgb(0, 0, 0);
+    margin: auto;
+    margin-top: 12%;
+    width: 70%;
+    height:70vh;
+    box-shadow: 0 0 10px rgb(49, 49, 49);
+    display: flex;
+    flex-direction: column;
+    border-radius: 14px;
+    padding: 1%;
+}
+#form{
+    margin-top: 2%;
+}
+.form-control{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(255, 196, 0);
+    margin-bottom: 5%;
+    
+}
+/* .form-check{
+    width: 40%;
+    margin-left: 30%;
+} */
+.form-check1{
+    width: 90%;
+}
+#inputState{
+    color: rgb(0, 0, 0); 
+}
+/* .form-control:focus{
+    box-shadow: 0 0 10px rgb(255, 196, 0), 0 0 20px rgb(255, 196, 0);
+}
+#form-control:focus{
+    box-shadow: 0 0 10px rgb(255, 196, 0), 0 0 20px rgb(255, 196, 0);
+} */
+#formButton{
+    width: 100%;
+    margin-left: 6%;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    color: black;
+    background-color: rgb(255, 196, 0);
+}
+#formButton:hover{
+    box-shadow: 0 0 10px #ccc , 0 0 20px #ccc;
+}
+#formCard{
+    height: 80vh;
+    padding: 2%;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #ccc , 0 0 20px #ccc ;
+}
+.form-check{
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width:800px){
+    #formCard{
+        margin: auto;
+        margin-top: 12%;
+        color: rgb(0, 0, 0);
+        width:90%;
+        padding: 2%;
+        border-radius: 15px;
+        box-shadow: 0 0 10px #ccc , 0 0 20px #ccc ;
+        height: 95vh;
+        margin-bottom: 4%;
+    }
+    .form-check{
+        width: 40%;
+        margin-left: 30%;
+    }
+    #inputState{
+        color: rgb(0, 0, 0);
+    }
+    .form-control{
+        margin: auto;
+        width: 60%;
+    }
+    #form-control:focus{
+        box-shadow: 0 0 10px rgb(255, 196, 0), 0 0 20px rgb(255, 196, 0);
+    }
+    #formButton{
+        margin-left: 6%;
+        outline: none;
+        border: none;
+        border-radius: 12px;
+        color: black;
+        background-color: rgb(255, 196, 0);
+    }    
+}
+@media (max-width:400px){
+    #formCard1{
+        margin: auto;
+        margin-top: 20%;
+        color: rgb(0, 0, 0);
+        width:90%;
+        padding:2%;
+        border-radius: 15px;
+        box-shadow: 0 0 10px #ccc , 0 0 20px #ccc ;
+        margin-bottom: 4%;
+    }
+    .form-check{
+        width: 60%;
+        margin: auto;
+        margin-right: 25%;
+    }
+    #inputState{
+        color: rgb(0, 0, 0);
+    }
+    .form-control{
+        margin: auto;
+        width: 100%;
+    }
+    .form-check1{
+        width: 90%;
+    }
+    /* .formbut{
+margin-top: -5%;
+    } */
+    #form-control:focus{
+        box-shadow: 0 0 10px rgb(255, 196, 0), 0 0 20px rgb(255, 196, 0);
+    }
+    #formButton{
+        margin-left: 6%;
+        outline: none;
+        border: none;
+        border-radius: 12px;
+        color: black;
+        background-color: rgb(255, 196, 0);
+    }    
+}

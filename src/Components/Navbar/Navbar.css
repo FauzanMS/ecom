@@ -1,0 +1,58 @@
+#navbar{
+    /* position: fixed;
+    margin-bottom: 2%; */
+    margin-top: -.7%;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 10%;
+    color: white;
+    transition: all 1s;
+    z-index: 5;
+    padding-right: 2%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.411);
+}
+.navbar-nav{
+    transition: 1s all ease-in-out;
+}
+.nav-link{
+    width: 6rem;
+}
+ul li .active{
+    /* outline: none; */
+    border-bottom: 2px solid red;
+    /* border-color:rgba(255, 0, 200, 0.404); */
+    box-shadow: 0  0 10px #ccc;
+    width: 120px;
+}
+#signupdiv{
+    width: 120px;
+    text-align: center;
+}
+#signupdiv:hover{
+    border-bottom: 2px solid red;
+    border-radius: 6px;
+}
+#logdiv{
+    width: 120px;
+    text-align: center;
+}
+#logdiv:hover{
+    border-bottom: 2px solid red;
+    border-radius: 6px;
+}
+#signup{
+    color: black;
+    cursor: pointer;
+}
+    
+#signme{
+    width: 4rem;
+}
+.nav-item{
+    margin-right: 2%;
+}
+/* #butt{
+    margin-left: 1%;
+} */
+
+

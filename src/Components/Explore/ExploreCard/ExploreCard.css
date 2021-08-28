@@ -1,0 +1,59 @@
+.card:hover{
+    /* padding: 1%; */
+    box-shadow: 0 0 10px rgb(10, 10, 10) , 0 0 20px rgb(100, 99, 99) , 0 0 40px #ccc ;
+}
+.card{
+    transition: all .3s ease-in-out;
+    z-index: 1;
+}
+.card-body{
+    background-color: rgb(255, 255, 255);
+}
+.card-title{
+    background-color: rgba(255, 255, 255, 0);
+}
+.card-text{
+    background-color: rgba(255, 255, 255, 0);
+}
+.add_to_cart{
+    background-color:rgb(255, 255, 255);
+    border-radius: 50%;
+    position: absolute;
+    top: 10;
+    font-weight: bolder;
+   width: 35px;
+   height: 30px;
+   display: flex;
+   justify-content: center;
+    z-index: 100;
+    left: 80%;
+    color: rgb(255, 2, 44);
+}
+.remove_to_cart{
+    background-color:rgb(218, 126, 6);
+    border-radius: 13px;
+    border : 1px solid black;
+    position: absolute;
+    top: 5;
+    width: 50%;
+    z-index: 5;
+    left: 10%;
+}
+.add_to_cart:hover{
+   background-color: rgb(255, 2, 44);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.amount{
+    color: black;
+}
+.rebate{
+    margin-left: 2%;
+    text-decoration: line-through;
+    font-size: 12px;
+    /* color: orange; */
+}
+.discount{
+    font-size: 12px;
+    color: orange;  
+}

@@ -1,0 +1,33 @@
+.orderScreen{
+    width: 80%;
+    margin: auto;
+    height: 90vh;
+    margin-top: 6%;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+
+  ::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+  
+ 
+  ::-webkit-scrollbar-thumb {
+    background: rgb(197, 0, 0);
+  }
+  
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(46, 0, 0);
+  }
+  
+@media (max-width:498px){
+ .orderScreen{
+    margin-top: 15%;
+    width: 95%;
+ }   
+}

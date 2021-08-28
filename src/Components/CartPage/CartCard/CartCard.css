@@ -1,0 +1,18 @@
+.CartCard{
+    display: flex;
+    flex-direction: row;
+}
+
+.cardtex{
+    font-size: 80%;
+}
+.remove{
+    background-color: red;
+    color: rgb(0, 0, 0);
+    padding: 3px 4px;
+    border-radius: 60%;
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+    right: 0;
+}

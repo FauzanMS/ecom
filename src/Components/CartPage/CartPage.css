@@ -1,0 +1,62 @@
+.carts{
+    width: 95%;
+    margin: auto;
+    margin-top: 4%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 30px;
+}
+.buttonOrder{
+    font-weight: bold;
+    background-color: rgb(255, 166, 0);
+    width: 10rem;
+    border-radius: 12px;
+    margin: auto;
+}
+.out{
+    margin-top: 5%;
+}
+@media (max-width:800px) {
+    .carts{
+        width: 90%;
+        margin: auto;
+        margin-top: 4%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .out{
+        margin-top: 5%;
+    }
+    
+}
+@media (max-width:780px) {
+    .carts{
+        width: 90%;
+        margin: auto;
+        margin-top: 4%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .out{
+        margin-top: 8%;
+    }
+    
+}
+@media (max-width:400px) {
+    .carts{
+        width: 90%;
+        margin: auto;
+        margin-top: 4%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .out{
+        margin-top: 16%;
+    }
+}
+@media (max-width:250px) {
+    .out{
+        margin-top: 55%;
+    }
+    
+}

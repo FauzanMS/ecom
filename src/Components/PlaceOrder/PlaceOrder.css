@@ -1,0 +1,52 @@
+.PlaceOrderBox{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.tablePlace{
+    margin: auto;
+}
+.PlaceOrderProduct{
+    box-shadow: 0  0 10px #ccc , 0 0 20px #ccc;
+    border-radius: 24px;
+    width: 90%;
+    margin: auto;
+    margin-top: 10%;
+}
+.PlaceOrderProductImage{
+    width: 60%;
+    margin-top: 4%;
+    border-radius: 14px;
+}
+.information{
+    margin-top: 6%;
+}
+@media (max-width:800px){
+    .PlaceOrderBox{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 2px;
+    }
+    .PlaceOrderProduct{
+     margin-top: 10%;
+    }
+    .information{
+        width: 100%;
+        margin-top: 1%;
+    }
+
+}
+@media (max-width:500px){
+    .PlaceOrderBox{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 2px;
+    }
+    .PlaceOrderProduct{
+     margin-top: 15%;
+    }
+    .information{
+        width: 100%;
+        margin-top: 1%;
+    }
+
+}
